@@ -1,0 +1,150 @@
+html,
+body {
+  margin: 0;
+  background: #000000;
+  color: #FFFFFF;
+  height: 80%;
+}
+a{
+	color: #C0C0C0;
+}
+.header-ph{
+	display:inline-block;
+}
+
+.sakura{
+	font-family: 'Playfair Display', serif;
+  margin: 0 5px!important;
+   font-size: 60px;
+}
+
+#wrap {
+  min-height: 100%;
+}
+main {
+  padding-bottom: 100px;
+  /*Высота футера*/
+  text-align: center;
+
+}
+main a{
+	display: block;
+  text-decoration: none;
+  outline: none;  
+  transition: .3s ease-in-out;
+}
+
+footer {
+  margin-top: -100px;
+  /*Минус Высота футера*/
+  height: 100px;
+  /*Высота футера*/
+   color:#696969;
+}
+
+
+
+
+
+
+
+
+nav {
+  display: table;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmenu > li {
+  width: 30%;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.topmenu > li > a {
+  text-transform: uppercase;
+  font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+  padding: 15px 30px;
+}
+.topmenu li a:hover {color: #D5B45B;}
+.submenu-link:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  color: inherit;
+  margin-left: 10px;
+}
+.submenu {
+  background: #273037;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 5;
+    width: 180px;
+  opacity: 0;
+    transform: scaleY(0);
+    transform-origin :0 0;
+  transition: .5s ease-in-out;
+}
+.submenu a {
+  color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.submenu li:last-child a {border-bottom: none;}
+.topmenu > li:hover .submenu {
+  opacity: 1;
+    transform: scaleY(1);
+}
+
+.info{
+	color:  #696969;
+}
+
+.news-cnt{
+	margin: 10%; /* Отступы вокруг элемента */
+    padding: 10px; /* Поля вокруг текста */
+
+}
+.about{margin: 10%; /* Отступы вокруг элемента */
+    padding: 10px; /* Поля вокруг текста */
+    font-family: 'Playfair Display', serif;
+}
+
+.frame{
+	padding: 15px;
+	margin: 4%;	
+	padding-left: 6%;
+}
+
+.avto{
+	padding: 15px;
+	padding-left: 80%;
+}
+.kont{
+	 font-size: 20px;
+}
+.menu{
+    text-align: center; /* Выравнивание по центру */ 
+   }
+  
+.fig
+{
+	 text-align: center;
+}
+.mt{
+	font-size: 50px;
+}
+
+
