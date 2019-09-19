@@ -1,0 +1,71 @@
+html { overflow-x: hidden; }
+
+body {
+	background-color: orange;
+
+}
+
+
+
+#div_1{
+	font-size: 40px; 
+	color: white; 
+	margin-top: 10px;
+	float: left;
+}
+
+#img_logo {
+	border-radius: 100%;
+	float: right;
+}
+
+
+#img_1{
+	height: 200px;
+	width: 351px;
+	filter: blur(5px); 
+	-webkit-filter: blur(5px);
+	transition-duration: .1s;
+}
+
+#img_2 {
+	height: 200px;
+	width: 351px;
+	border-radius: 500px; 
+
+}
+
+
+#img_1:hover {
+	filter: blur(0px); 
+	-webkit-filter: blur(0px);
+}
+
+
+.fig {
+	text-align: center;
+}
+
+
+h4 {
+	font-weight: bold;
+}
+
+footer {
+	background-color: black;
+	color: grey; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
+}
+
+
+#staff_img_1 {
+	margin-top: 10px;
+	width: 200px;
+	margin-left: 80px; 
+    border-radius: 100px; /* Радиус скругления */
+    border: 3px solid black; /* Параметры рамки */
+     /* Параметры тени */
+
+}
