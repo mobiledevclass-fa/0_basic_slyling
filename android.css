@@ -12,6 +12,7 @@ body {
     width: 960px;
     background-color: #fff;*/
     min-height: 100%;
+    /*background-color: red;*/
 }
 
 .header {
@@ -88,15 +89,37 @@ footer {
     /*position: absolute;
     top: 1350px;
     right: 5%;*/
-    position: absolute;
-    right: 5%;
-    top: 1400px;
 }
 
     footer a {
         text-decoration: underline;
         color: #778899;
     }
+.footer_index {
+    position: absolute;
+    right: 3%;
+    top: 1320px;
+}
+.footer_information {
+    position: absolute;
+    right: 3%;
+    top: 3970px;
+}
+.footer_gallery {
+    position: absolute;
+    right: 3%;
+    top: 4000px;
+}
+.footer_events {
+    position: absolute;
+    right: 3%;
+    top: 800px;
+}
+.footer_contacts {
+    position: absolute;
+    right: 3%;
+    top: 500px;
+}
 /*information ИНФОРМАЦИЯ*/
 .header_page_information {
     font-size: 20px;
