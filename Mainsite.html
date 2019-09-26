@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Вьетнамская кухня</title>
+		<link rel="stylesheet" href="css2.css" >
+	</head>
+	<body>
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 4</div>
+			<img src="xoithit.jpg" style="width:100%">
+			<div class="text">Сой с мясом</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 4</div>
+			<img src="bun.jpg" style="width:100%">
+			<div class="text">Бун Бо</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 4</div>
+			<img src="nem.jpg" style="width:100%">
+			<div class="text">Нэм ран</div>
+		</div>
+		
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 4</div>
+			<img src="nemchua.jpg" style="width:100%">
+			<div class="text">Нэм чуа</div>
+		</div>
+		
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+<br>
+
+	<div style="text-align:center">
+		<span class="dot" onclick="currentSlide(1)"></span> 
+		<span class="dot" onclick="currentSlide(2)"></span> 
+		<span class="dot" onclick="currentSlide(3)"></span> 
+		<span class="dot" onclick="currentSlide(4)"></span> 
+	</div>
+
+	<div class = "Color" style = "text-align:center">
+		<img src = "welcome.jpg" width=10%> 
+		<p>Добро пожаловать!
+		<p><button class = "btn" id="myButton" type="button">Enter</button>
+	</div>
+	
+	</body>
+</html>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+
+document.getElementById("myButton").onclick = function () {
+        location.href = "Site1.html";
+    };
+</script>

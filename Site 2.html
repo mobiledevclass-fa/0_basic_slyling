@@ -1,0 +1,125 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>ВьетКафе - Меню</title>
+		<link rel="stylesheet" href="w3.css">
+		<link rel="stylesheet" href="css3.css">
+	</head>
+	<body>
+		<div class="w3-bar w3-black">
+			<a href="Site1.html" class="w3-bar-item w3-button">Главный</a>
+			<a href="Site 2.html" class="w3-bar-item w3-button">Меню</a>
+			<a href="Site 3.html" class="w3-bar-item w3-button">Контакты</a>
+			<a href="Site 4.html" class="w3-bar-item w3-button">О нас</a>
+			<a href="Site 5.html" class="w3-bar-item w3-button">Творчество</a>
+		</div>
+		
+		<div class="w3-container w3-grey w3-padding-64 w3-xxlarge"">
+			<div class="w3-content">
+  
+				<h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Меню</h1>
+				<div class="w3-row w3-center w3-border w3-border-dark-grey">
+					<a href="javascript:void(0)" onclick="openMenu(event, 'hotfood');" id="myLink">
+					<div class="w3-col s4 tablink w3-padding-large w3-hover-red">Горячие блюда</div>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'salads');">
+					<div class="w3-col s4 tablink w3-padding-large w3-hover-red">Салаты</div>
+					</a>
+					<a href="javascript:void(0)" onclick="openMenu(event, 'soup');">
+					<div class="w3-col s4 tablink w3-padding-large w3-hover-red">Супы</div>
+					</a>
+				</div>
+
+				<div id="hotfood" class="w3-container menu w3-padding-32 w3-white">
+					<h1><b>Обжаренная курица с овощами</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+					<hr>
+   
+					<h1><b>Жареная курица в тесте</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,50</span></h1>
+					<hr>
+      
+					<h1><b>Жареный окорочок куриный</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽300,00</span></h1>
+					<hr>
+
+					<h1><b>Обжаренная свинина с овощами</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+					<hr>
+
+					<h1><b>Котлеты из свинины</b> <span class="w3-tag w3-red w3-round">Острый!</span><span class="w3-right w3-tag w3-dark-grey w3-round">₽400,00</span></h1>
+					<hr>
+
+					<h1><b>Свинина Лук-Лак</b> <span class="w3-tag w3-grey w3-round">Популярный</span><span class="w3-right w3-tag w3-dark-grey w3-round">₽400,50</span></h1>
+					<hr>
+					
+					<h1><b>Бифштекс из свинины</b> <span class="w3-tag w3-red w3-round">Острый!</span><span class="w3-right w3-tag w3-dark-grey w3-round">₽350,50</span></h1>
+					<hr>
+					
+					<h1><b>Креветки в кисло-сладком соусе</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,50</span></h1>
+					<hr>
+					
+					<h1><b>Рыба в кисло-сладком соусе</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+					<hr>
+					
+					<h1><b>Блинчики Сайгон</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+					<hr>
+					
+					<h1><b>Плов ассорти</b> <span class="w3-tag w3-grey w3-round">Новинка!</span><span class="w3-right w3-tag w3-dark-grey w3-round">₽300,00</span></h1>
+					<hr>
+					
+					<h1><b>Обжаренный кальмар с ассорти</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+					<hr>
+					
+					<h1><b>Жаренное яйцо</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽350,00</span></h1>
+				</div>
+
+				<div id="salads" class="w3-container menu w3-padding-32 w3-white">
+					<h1><b>Салат с куриным филе</b> <span class="w3-tag w3-grey w3-round">Популярный!</span> <span class="w3-right w3-tag w3-dark-grey w3-round">₽180,00</span></h1>
+					<hr>
+   
+					<h1><b>Салат Оливье</b> <span class="w3-tag w3-grey w3-round">Сезонный</span><span class="w3-right w3-tag w3-dark-grey w3-round">₽170,00</span></h1>
+					<hr>
+      
+					<h1><b>Салат из капусты и моркови</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽170,00</span></h1>
+					<hr>
+
+					<h1><b>Салат из помидоров и огурцов</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽180,00</span></h1>
+					<hr>
+					
+					<h1><b>Салат с говядиной</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽170,00</span></h1>
+				</div>
+
+
+				<div id="soup" class="w3-container menu w3-padding-32 w3-white">
+					<h1><b>Суп из рисовой лапши с курицей</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽250,00</span></h1>
+					<hr>
+   
+					<h1><b>Суп из рисовой лапши с говядиной
+</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽250,00</span></h1>
+					<hr>
+      
+					<h1><b>Суп овощной с мясом</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽250,00</span></h1>
+					<hr>
+      
+					<h1><b>Суп с креветкой</b> <span class="w3-right w3-tag w3-dark-grey w3-round">₽250,00</span></h1>
+				</div><br>
+
+			</div>
+		</div>
+	</body>
+</html>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>

@@ -1,0 +1,92 @@
+body{
+	background-image: url(main-bkg.jpg);
+	background-size: cover;
+}
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.Border-chan {
+    border: 2px solid red;
+    border-radius: 5px;	
+	background-image: url(flag.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width:100%;
+}
+.Maintext {
+	color: blue;
+}
+
+div.f{
+`	background:blue;
+	color:white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 98%;
+	height: 24px;
+	text-align: right;
+	font-size: 20px;
+}
+img.logo{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+p.logo-text{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}
+
+div.menu{
+	font-size: 20px;
+}
+
+div.menu-text{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+p.menu-text a{
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+div.animage{
+	background-image: url(bunbo.jpg);
+}
+image.aftimage{
+	postision: absolute;
+	margin-left: 30%;
+}
+
+div.container{
+  background: linear-gradient(
+    to right, 
+    #ff9e2c 0%, 
+    #ff9e2c 50%, 
+    #b6701e 50%, 
+    #b6701e 100%
+  );

@@ -1,0 +1,13 @@
+body.site1{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("background.jpg");
+    min-height: 90%;
+}
+
+body.received{
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("message.png");
+    min-height: 90%;
+}
