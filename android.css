@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 50px; 
+    background-color: blue;
+}
+.navigation_bar{
+    background-color: aqua;   
+}
+.h1-1{
+    text-align: center;
+    margin: 0;
+    font-size: 25px
+}
+.list_ul{  
+    margin: 0; /* убираем автоматические отступы
+    вокруг списка*/
+    list-style-type: none;
+}
+
+a{
+    color: black;
+    text-decoration:none;
+}
+.column_one{
+    width: 50%;
+    height: 100%;    
+    background-color: grey;
+    float: left;
+}
+.column_two{  
+    background-color: pink;
+    
+}
+.product{      
+    clear: both;
+}
+.product_image{
+    width: 50%;
+    background: grey;
+    float: left;
+    margin: 10px; 
+}
+.product_description{
+    padding: 5px;
+    clear: both;
+        
+}
+
+.image{
+    width: 100%;
+}
+.contacts-title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.adress-item{
+    margin: 10px 30px 30px 20px;
+}
+
+.footer {
+    display: none;
+}
+.title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+.article{
+    margin-left: 30px;
+}
+.h1-2{
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+h3{
+    margin: 0;
+}
+h2{
+    color: white;
+    margin: 0;
+}
+
+           

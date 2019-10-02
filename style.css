@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 100px;
+    background-color: blue;
+}
+.navigation_bar{
+    background-color: aqua;   
+}
+.h1-1{
+    text-align: center;
+    margin: 0;
+}
+.list_ul{  
+    margin: 0; /* убираем автоматические отступы
+    вокруг списка*/
+    padding: 10px 10px 10px 230px;
+}
+.list_li{
+    display: inline;
+    border: 1px solid;
+    padding: 10px;
+    margin-right: 70px;    
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+.column_one{
+    width: 50%;
+    height: 100%;    
+    background-color: grey;
+    float: left;
+}
+.column_two{  
+    
+}
+.product{      
+    clear: both;
+}
+.product_image{
+    width: 50%;
+    background: grey;
+    float: left;
+    margin: 10px; 
+}
+.product_description{
+    padding: 5px;       
+}
+
+.image{
+    width: 100%;
+}
+.contacts-title{
+    margin: 15px;
+    font-size: 17px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.adress-item{
+    margin-left: 10px;
+}
+.item{
+    float: left;
+    width: 50%;
+}
+.footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 5px; /* Поля вокруг текста */
+    background: #444; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */  
+    text-align: center;
+}
+.title{
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 10px 0;
+    text-align: center;
+}
+.article{
+    margin-left: 30px;
+}
+.h1-2{
+    color: black;
+    font-size: 18px;
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+h2{
+    text-transform: uppercase;
+}
+
