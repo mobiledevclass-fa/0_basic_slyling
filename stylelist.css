@@ -1,0 +1,154 @@
+  a{ font-size: medium;
+    display: block; 
+
+    margin-left: 25%; 
+    border: 1px solid #000; /*позволяет одновременно установить толщину, стиль и цвет границы вокруг элемента*/
+    padding: 5px; 
+	background: #C0C0C0;
+	text-decoration: none; /* Убирает подчеркивание для ссылок */
+	
+   }
+ a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+    } 
+header{
+  margin-left:10%;
+  text-align: center; 
+}
+#logo {
+   position:fixed;
+   max-height:150;
+   max-width:150;
+   min-width: 50;
+   min-height:50;
+   top:0px;
+   opacity: 0.7;
+ }   
+.main {
+	 position:relative;
+	 top:-50%;
+	 left:163px;
+	 height: 200px; width: 69%; 
+     background-color:#808080;
+     display: inline-table;	 
+	 z-index: -1; 
+	 float: none;
+ }
+.paragraph {
+	font-size: 15pt;
+	margin: 10px; 
+	display: block;
+	 /*vertical-align: middle;*/
+	color:white;
+} 
+.navbar {
+    /*overflow: auto;отображает только внутри элемента*/
+	/*height: 40px; 
+	width: 10%;*/
+	display: block;
+    background-color: #C0C0C0;
+    font-family: Arial, Helvetica, sans-serif;
+	position:absolute;
+	
+	
+	
+	
+}
+/*новигация*/
+.navbar a {
+    float: left;/*сторона выравнивания элемента*/
+    font-size: medium;
+    color: white;
+    text-align: center;
+    padding: 5px;/*вверх вниз 14 вправо влево 16*/
+    text-decoration: none;/*подчеркивание*/
+	
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+	margin-top:-5px;
+}
+
+.dropdown .dropbtn {
+    font-size: medium;    
+    border: 1px solid #000;
+    color: green;
+    padding: 5px;
+    background-color:#C0C0C0;
+    
+
+	
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+	text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+}
+
+.dropdown-content {
+    display: none;/*тип элемента*/
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*тень*/
+    z-index: 1;/*расположение эл по отн к другим*/
+	
+	
+}
+.dropdown-content a {
+    float: none;
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.column {
+	font-family:"Times New Roman";
+	font-size:20px;
+	color:#3333CC;
+	position: relative;
+	margin-top: 40px;
+	margin-right:350px;
+	bottom:50px;
+	margin-left:150px;
+    -webkit-column-width: 120px;
+    -moz-column-width: 120px;
+    column-width: 120px;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+   }
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 2px; /* Поля вокруг текста */
+    background: #99CCCC; /* Цвет фона */
+    color: black; /* Цвет текста */
+    width:10%; /* Ширина слоя */
+	opacity: 0.7;
+   }
+#im1 {
+   position:absolute;
+   height:500;
+   width:500;
+   margin-left:150px;
+}	
