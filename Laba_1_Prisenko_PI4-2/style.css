@@ -1,0 +1,11 @@
+body{
+	background: url("http://luxfon.com/images/201203/luxfon.com_1026.jpg");
+}
+
+.logo{
+	height: 10rem;
+}
+
+nav{
+	opacity: 0.85;
+}
