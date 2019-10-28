@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html> 
+<html>
+<head><title>IS</title>
+<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<script src="3.js"></script>
+</head> 
+<body>
+<header>
+<a href="index.html"> <img src="img/logo.png" height="20" width="20"></a>
+Информационная система проекта 
+
+<br><br><br><br>
+	<nav class="dws-menu">
+		<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+		<label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Меню</label>
+		<ul>
+			<li><a href="index.html"></i>Основная</a></li>
+			<li><a href="tasks.html"></i>Задачи</a>
+				<ul>
+					<li><a href="tasks.html">Список</a>
+						<!--<ul>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>-->
+					</li>
+					<li><a href="tasks2.html">Последняя</a>
+
+					</li>
+
+				</ul>
+			</li> 
+			<li><a href="plan.html"></i>Требования</a>
+				<!--<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul> -->
+			</li>
+			<li><a href="emp.html"></i>Участники</a></li>
+			<li><a href="sur.html"></i>Ресурсы</a></li>
+		</ul>
+	</nav>
+<br><br><br><br>
+</header>
+<br>
+
+<div align="center">
+Проект "
+<span id="1"></span>
+"
+</center>
+<script>
+document.addEventListener("DOMContentLoaded",function Ok1()
+{ 
+var q = localStorage.getItem("Ok1");
+{
+document.getElementById("1").innerHTML=q;
+}
+});
+</script>
+<br>
+<br>
+Участники:
+<br>
+<br>
+</font>
+
+<hr>
+ <div id="out3"></div> 
+  
+ <input type="text" id="in3" class="ttt">
+ <button id="add3" class='btn-5'>добавить участника</button>
+ <br>
+ <br>
+ <button class='btn-6' id="del3" onClick="del3()">удалить участников</button> 
+
+<script>
+var del3 = document.getElementById('del3');
+del3.onclick = function() {
+localStorage.removeItem('todo3');
+location.reload()
+
+return false;
+}
+</script>
+
+	
+
+<br>
+<br>
+<br>
+   </div>
+  </div>
+<div class="footer">
+©2019 Все права защищены
+<p >Ссылки на сторонние ресурсы:</p>
+<a href="https://vk.com">Вконтакте</a><br>
+<a href="https://facebook.com">Facebook</a><br>
+<a href="https://twitter.com">Twitter</a>
+</div>
+
+
+
+ 
+
+
+</body>
+
+</html> 

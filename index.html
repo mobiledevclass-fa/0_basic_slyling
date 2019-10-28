@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html> 
+<html>
+<head><title>IS</title>
+<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+</head> 
+<body>
+
+
+
+<header>
+<a href="index.html"> <img src="img/logo.png" height="20" width="20"></a>
+Информационная система проекта 
+
+<br><br><br><br>
+	<nav class="dws-menu">
+		<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+		<label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Меню</label>
+		<ul>
+			<li><a href="index.html"></i>Основная</a></li>
+			<li><a href="tasks.html"></i>Задачи</a>
+				<ul>
+					<li><a href="tasks.html">Список</a>
+						<!--<ul>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>-->
+					</li>
+					<li><a href="tasks2.html">Последняя</a>
+
+					</li>
+
+				</ul>
+			</li> 
+			<li><a href="plan.html"></i>Требования</a>
+				<!--<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul> -->
+			</li>
+			<li><a href="emp.html"></i>Участники</a></li>
+			<li><a href="sur.html"></i>Ресурсы</a></li>
+		</ul>
+	</nav>
+<br><br><br><br>
+</header>
+<br>
+
+<div class= "z">
+<script src="1.js"></script>
+Наименование проекта:
+
+<span id="1"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg1()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok1()
+{ 
+var q = localStorage.getItem("Ok1");
+{
+document.getElementById("1").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg1()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("1").innerHTML=q;
+var q=document.getElementById('1').innerHTML;
+localStorage.setItem("Ok1", q);
+}
+}
+</script>
+
+
+</div>
+<div class= "z">
+Дата начала проекта:
+<span id="2"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg2()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok2()
+{ 
+var q = localStorage.getItem("Ok2");
+{
+document.getElementById("2").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg2()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("2").innerHTML=q;
+var q=document.getElementById('2').innerHTML;
+localStorage.setItem("Ok2", q);
+}
+}
+</script>
+
+
+</div>
+<div class= "z">
+Дата окончания проекта:
+<span id="3"></span>
+
+<br>
+<input type="button" class='btn-5' onClick="msg3()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok3()
+{ 
+var q = localStorage.getItem("Ok3");
+{
+document.getElementById("3").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg3()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("3").innerHTML=q;
+var q=document.getElementById('3').innerHTML;
+localStorage.setItem("Ok3", q);
+}
+}
+</script>
+
+
+</div>
+<div class= "z">
+Бюджет проекта:
+<span id="0"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg0()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok0()
+{ 
+var q = localStorage.getItem("Ok0");
+{
+document.getElementById("0").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg0()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("0").innerHTML=q;
+var q=document.getElementById('0').innerHTML;
+localStorage.setItem("Ok0", q);
+}
+}
+</script>
+
+</div>
+
+<div class= "z">
+Заказчик проекта:
+<span id="4"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg4()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok4()
+{ 
+var q = localStorage.getItem("Ok4");
+{
+document.getElementById("4").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg4()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("4").innerHTML=q;
+var q=document.getElementById('4').innerHTML;
+localStorage.setItem("Ok4", q);
+}
+}
+</script>
+
+</div>
+<div class= "z">
+Куратор проекта:
+<span id="5"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg5()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok5()
+{ 
+var q = localStorage.getItem("Ok5");
+{
+document.getElementById("5").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg5()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("5").innerHTML=q;
+var q=document.getElementById('5').innerHTML;
+localStorage.setItem("Ok5", q);
+}
+}
+</script>
+
+</div>
+
+<div class= "z">	
+Руководитель проекта:
+<span id="6"></span>
+<br>
+<input type="button" class='btn-5' onClick="msg6()" value="Ввод"> 
+<script>
+document.addEventListener("DOMContentLoaded",function Ok6()
+{ 
+var q = localStorage.getItem("Ok6");
+{
+document.getElementById("6").innerHTML=q;
+}
+});
+</script>
+<script> 
+function msg6()
+{
+q= prompt("Ввод:","");
+{
+document.getElementById("6").innerHTML=q;
+var q=document.getElementById('6').innerHTML;
+localStorage.setItem("Ok6", q);
+}
+}
+</script>
+</div>
+
+<div class="z"></div>
+
+
+
+<div class="footer">
+©2019 Все права защищены
+<p >Ссылки на сторонние ресурсы:</p>
+<a href="https://vk.com">Вконтакте</a><br>
+<a href="https://facebook.com">Facebook</a><br>
+<a href="https://twitter.com">Twitter</a>
+</div>
+         
+</body>
+
+</html> 

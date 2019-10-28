@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html> 
+<html>
+<head><title>IS</title>
+<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/media.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+<script src="1.js"></script>
+</head> 
+<body>
+<header>
+<a href="index.html"> <img src="img/logo.png" height="20" width="20"></a>
+Информационная система проекта 
+
+<br><br><br><br>
+	<nav class="dws-menu">
+		<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+		<label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>Меню</label>
+		<ul>
+			<li><a href="index.html"></i>Основная</a></li>
+			<li><a href="tasks.html"></i>Задачи</a>
+				<ul>
+					<li><a href="tasks.html">Список</a>
+						<!--<ul>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+						</ul>-->
+					</li>
+					<li><a href="tasks2.html">Последняя</a>
+
+					</li>
+
+				</ul>
+			</li> 
+			<li><a href="plan.html"></i>Требования</a>
+				<!--<ul>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+				</ul> -->
+			</li>
+			<li><a href="emp.html"></i>Участники</a></li>
+			<li><a href="sur.html"></i>Ресурсы</a></li>
+		</ul>
+	</nav>
+<br><br><br><br>
+</header>
+<br>
+
+<div align="center">
+Проект "
+<span id="1"></span>
+"
+</center>
+<script>
+document.addEventListener("DOMContentLoaded",function Ok1()
+{ 
+var q = localStorage.getItem("Ok1");
+{
+document.getElementById("1").innerHTML=q;
+}
+});
+</script>
+<br>
+<br>
+3адачи:
+<br>
+<br>
+<hr>
+</font>
+ <div id="out"></div> 
+ <input type="text" id="in" class="ttt">
+ <button id="add" class='btn-5'>+</button>
+ <br>
+ <br>
+ <button id="op" onClick="op()" class='btn-6'>описание задачи</button>
+ <br>
+ <br>
+ <button class='btn-6' id="del" onClick="del()">очистить все</button> 
+
+<script>
+var op = document.getElementById('op');
+op.onclick = function() {
+document.location.href = "tasks2.html";
+
+return false;
+}
+</script>
+<script>
+var del = document.getElementById('del');
+del.onclick = function() {
+localStorage.removeItem('todo');
+
+localStorage.removeItem("Ok22");
+localStorage.removeItem("Ok33");
+localStorage.removeItem("Ok11");
+
+location.reload()
+
+return false;
+}
+</script>
+
+<br>
+<br>
+<br>
+<font color = white>
+Hачало последней задачи:
+<br>
+<br>
+<span id="22"></span>
+<script>
+document.addEventListener("DOMContentLoaded",function Ok22()
+{ 
+var q = localStorage.getItem("Ok22");
+{
+document.getElementById("22").innerHTML=q;
+}
+});
+</script>
+<br>
+<br>
+<br>
+Oкончание последней задачи:
+<br>
+<br>
+<span id="33"></span>
+
+<script>
+document.addEventListener("DOMContentLoaded",function Ok33()
+{ 
+var q = localStorage.getItem("Ok33");
+{
+document.getElementById("33").innerHTML=q;
+}
+});
+</script>
+	
+
+<br>
+<br>
+<br>
+   </div>
+  </div>
+<div class="footer">
+©2019 Все права защищены
+<p >Ссылки на сторонние ресурсы:</p>
+<a href="https://vk.com">Вконтакте</a><br>
+<a href="https://facebook.com">Facebook</a><br>
+<a href="https://twitter.com">Twitter</a>
+</div>
+
+ 
+
+
+</body>
+
+</html> 
