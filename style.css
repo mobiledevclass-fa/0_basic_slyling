@@ -1,0 +1,174 @@
+body{width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(backgr.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;}
+
+.header{height: 200px;
+    background: rgba(255,255,255,0.5);
+    background-size: cover;
+    width: 100%;
+    min-width: 300px;
+    margin-top: 5px; 
+    border-radius: 10px;}
+
+
+.logo{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+    background-size: cover;
+    float: left;}
+
+.name{width: 200px;
+    float: left;
+    margin-top: 57px;
+    margin-left: 70px;}
+
+.Name{color: green;
+    font-family: 'Snell Roundhand';
+    -webkit-text-stroke: 1px white;
+    font-size: 450%}
+
+/* МЕНЮ И ЕГО СВОЙСТВА */
+    ul {
+      list-style: none; /*убираем маркеры списка*/
+      margin: 0; /*убираем отступы*/
+      padding-left: 0; /*убираем отступы*/
+      margin-top:10px; /*делаем отступ сверху*/
+    margin-bottom: 10px;
+      background: rgba(255,255,255,0.5);
+      height: 50px; /*задаем высоту*/
+    }
+    a {
+      text-decoration: none; /*убираем подчеркивание текста ссылок*/
+      background: rgba(255,255,255,0.9); /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+      color:black; /*меняем цвет ссылок*/
+      padding:0px 15px; /*добавляем отступ*/
+      line-height:50px; /*ровняем меню по вертикали*/
+      display: block; 
+        border-radius: 5px;
+      -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+      -o-transition: all 0.3s 0.01s ease;
+      -webkit-transition: all 0.3s 0.01s ease;
+    }
+    a:hover {
+      background:green;/*добавляем эффект при наведении*/
+        border-radius: 5px;
+    }
+    li {
+      float:left;/*список горизонтально для реализации меню*/
+      margin-right: 1%;
+    }
+
+.content1{background: rgba(255,255,255,0.7);
+    width: 19%;
+    height: 200px;
+    margin-right: 0.47%;
+    float: left;
+    border-radius: 10px;}
+.adr{
+    margin: 20px;
+    padding-top: 5px;
+}
+.block_main{
+    background: rgba(255,255,255,0.7);
+    width: 76%;
+    min-width: 50px;
+    float: right;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+.fl-img{width: 90%;
+    height: 90%;
+    display: inline;
+    min-width: 50px;
+    margin-top: 10px;
+    margin-left: 10px;}
+
+.f{padding: 5px;
+    height: 90%;
+    width: 90%;
+    min-width: 10px;}
+
+.footer { width: 100%;
+    float: right;
+    text-align: center;
+    background: green;
+    opacity: 0.9;
+    display: block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    left: 0; bottom: 0;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .logo{width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        margin-left: -70px;
+        background-size: cover;}
+    
+    .name{display: none;} 
+    
+    .menu-main{ width: 93%;
+    margin-left: -7px;
+    padding: 10px;}
+    
+    .menu-main li { 
+        display: block;
+        line-height: 32px;
+        height: auto;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .menu-main li a {
+        display: block;
+        line-height: 32px;
+        padding:0 0 0 25px;
+        text-decoration: none;
+    }
+    
+    .menu-main li a:hover{
+	    background: green;
+	    color:white;}
+    
+    .content1{
+    width: 90%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 10px;
+    padding: 10px;}
+    
+    .block_main{
+    width: 90%;
+    float: left;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 35px;    
+}
+    iframe {
+width: 70%;
+}
+}
