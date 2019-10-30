@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+.header{
+    background: fuchsia;
+    padding: 20px;
+}
+.header-title{
+    margin: 0;
+    text-align: center;
+}
+.navigation{
+    background: rgb(0, 47, 255);
+}
+.navigation-ul{
+    padding: 0;
+    margin: 0;
+}
+.navigation-li{  
+    
+    padding: 5px;
+    display: inline;
+}
+
+.navigation-li:hover{
+    background: green;
+	cursor: pointer;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+p{
+    margin: 0 0 10px;
+}
+.contacts-title{
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-2{
+    display: flex;
+    flex-direction: column;
+}
+.adress-paragraph{
+    margin-left: 10px;
+}
+.column-one{
+    width: 100%;
+}
+.image{
+    margin-top: 10px;
+    width: 100%;
+}
+.column-two{
+    width: 100%;
+}
+.column-two-title{
+    text-align: center;
+}
+.column-two-paragraph{
+    padding-left: 10px;
+}
+
+.footer {
+    display: none;
+}
+.space{
+    display: none;
+}
