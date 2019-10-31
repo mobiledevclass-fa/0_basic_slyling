@@ -16,7 +16,6 @@ a{
 	font-family: 'Playfair Display', serif;
   margin: 0 5px!important;
    font-size: 60px;
-   	padding-right: 26%;
 }
 
 #wrap {
@@ -33,7 +32,7 @@ main {
 main a{
 	display: block;
   text-decoration: none;
-  outline: none;  
+  outline: none;
   transition: .3s ease-in-out;
 }
 
@@ -136,22 +135,25 @@ nav ul {
 
 .frame{
 	padding: 15px;
-	margin: 4%;	
+	margin: 4%;
 	padding-left: 6%;
 }
 
 .avto{
 	padding: 15px;
 	padding-left: 20%;
-	   width:400px;
 }
 .kont{
 	 font-size: 20px;
 }
 .menu{
-    text-align: center; /* Выравнивание по центру */ 
+    width: 100%;
+    text-align: center; /* Выравнивание по центру */
    }
-  
+.menu .fig img {
+width: 100%;
+}
+
 .fig
 {
 	 text-align: center;
@@ -163,4 +165,28 @@ nav ul {
 
 }
 
+.contacts h1 {
+    text-align: center;
+}
+
+.sotrudniki {
+    font-size: 34px;
+}
+
+.sotrudniki img {
+    width: 600px;
+    height: 100%;
+}
+.kar {
+    width: 100%;
+}
+.kar img {
+    margin-top: -75px;
+    width: 400px;
+}
+
+.kar .svety {
+    margin: 0;
+    width: 100%;
+}
 

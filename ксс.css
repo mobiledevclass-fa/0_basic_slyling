@@ -5,6 +5,7 @@ body {
   color: #FFFFFF;
   height: 80%;
 }
+
 a{
 	color: #C0C0C0;
 }
@@ -30,7 +31,7 @@ main {
 main a{
 	display: block;
   text-decoration: none;
-  outline: none;  
+  outline: none;
   transition: .3s ease-in-out;
 }
 
@@ -58,10 +59,15 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 .topmenu:after {
   content: "";
   display: table;
   clear: both;
+}
+.topmenu {
+  display: flex;
+  flex-wrap: wrap;
 }
 .topmenu > li {
   width: 30%;
@@ -74,7 +80,8 @@ nav ul {
   font-size: 14px;
     font-weight: bold;
     color: #404040;
-  padding: 15px 30px;
+  padding: 15px 20px;
+  padding-left: 0;
 }
 .topmenu li a:hover {color: #D5B45B;}
 .submenu-link:after {
@@ -109,6 +116,7 @@ nav ul {
 }
 
 .info{
+  width: 280px;
 	color:  #696969;
 }
 
@@ -124,27 +132,92 @@ nav ul {
 
 .frame{
 	padding: 15px;
-	margin: 4%;	
+	margin: 4%;
 	padding-left: 6%;
 }
 
 .avto{
+  width: 250px;
 	padding: 15px;
-	padding-left: 80%;
+	margin: 0 auto;
 }
 .kont{
 	 font-size: 20px;
 }
-.menu{
-    text-align: center; /* Выравнивание по центру */ 
+.menu img{
+  margin: 0;
+  padding: 0;
+  width: 320px;
    }
-  
-.fig
-{
-	 text-align: center;
-}
+
+
 .mt{
 	font-size: 50px;
 }
 
+.kar {
+  width: 350px;
+}
 
+body {
+  width: 400px;
+}
+
+img {
+  width: 250px;
+  height: 100%;
+}
+
+.susi {
+  margin-left: -20px;
+}
+
+footer{
+  width: 250px;
+}
+
+.sakura {
+  font-size: 42px;
+}
+
+.kar img {
+  width: 300px;
+}
+
+.news-cnt {
+  margin: 0;
+}
+
+.col {
+  width: 250px;
+}
+
+.mt {
+  font-size: 40px;
+}
+
+.contacts{
+  background: #273037;
+  font-size: 32px;
+  width: 320px;
+}
+
+.kont {
+  margin: 0;
+}
+
+.about__us {
+  width: 320px;
+}
+
+.sotrudniki {
+  width: 320px;
+}
+
+.tvor {
+  width: 320px;
+}
+
+.tvor iframe {
+  width: 300px;
+}
