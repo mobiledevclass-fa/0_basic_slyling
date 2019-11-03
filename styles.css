@@ -1,0 +1,168 @@
+/* basic */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+body{	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	color: #ffffff;
+	background: #0a6a5b url(images/bg.jpg);
+}
+
+#bg_black{
+	background: url(images/bg_black.png) repeat-x top;	
+}
+
+#wrap{
+	border: 22px solid #ffffff;
+	width: 1032px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+/* menu */
+
+#menu{
+	background: url(images/menu_bg.jpg) repeat-x top;
+	height: 83px;
+}
+
+#menu ul{
+	padding-left: 0px;
+   	list-style: none;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	font: 24px  Arial, Helvetica, sans-serif;
+    	color: #ffffff;
+	text-align: center;
+    	font-weight: normal;
+    	text-decoration: none;
+    	display: block;
+    	float: left;
+    	width: 200px;
+    	height: 83px;
+	line-height: 83px;
+}
+
+#menu ul li a:hover,  #menu ul li .active{
+	color: #ffffff;
+	background: url(images/hover.png) no-repeat center;
+}
+
+
+/* logo */
+
+#logo{
+	width: 1032px;
+	margin: 0 auto;
+	height: 83px;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#logo img{
+	position: relative;
+	display: inline;
+	height: 70px;
+}
+
+#logo h1{
+	font: 50px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	font-weight: bold;
+	padding-left: 200px;
+	display: inline;
+}
+
+/* footer */
+
+footer{
+	padding: 25px;
+	text-align: center;
+}
+
+/** page*/
+
+#page {
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+#page h1{
+	font: 30px Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#page p{
+	font: 15px Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding-bottom: 10px;
+}
+
+#sidebar #box {
+	margin-bottom: 1.5em;
+}
+/** Content*/
+
+#content {
+	float: left;
+	width: 730px;
+	margin-left: 30px;
+}
+
+#content img{
+	padding-bottom: 19px;
+}
+
+/** Sidebar*/
+
+#sidebar {
+	float: left;
+	width: 250px;
+	margin-right: 20px;
+}
+
+#container {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#column {
+	margin-left: 30px;
+	margin-right: 10px;
+	width: 200px;
+	float:left;
+}
+
+#column h1{
+	font: 17px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+
+#column p{
+	font: 13px Arial, Helvetica, sans-serif;
+	padding-bottom: 5px;
+}
+
+#menu-checkbox{
+	display: none;
+}
