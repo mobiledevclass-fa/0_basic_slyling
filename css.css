@@ -1,0 +1,128 @@
+.header {
+    background-color: #8f105a;
+    padding: 20px 10px;
+    height: 89px;
+}
+
+.caption {
+    display: inline;
+    float: left;
+}
+
+.logo {
+    display: inline;
+    float: right;
+}
+
+#content {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.navigation {
+    margin: 10px 0;
+    padding: 10px 10px 0;
+    background-color: #39ebf8;
+    height: 50px;
+}
+
+    .navigation a {
+        text-decoration: none;
+        width: 100px;
+        display: block;
+        float: left;
+        text-align: center;
+        height: 38px;
+        color: black;
+    }
+
+        .navigation a:hover {
+            background-color: #18c4ca;
+        }
+
+    .navigation .current {
+        background-color: #ca2d18;
+    }
+
+
+.content {
+    display: inline;
+}
+
+.side_bar {
+    float: left;
+    background-color: #b8ca18;
+}
+
+    .side_bar .side_block {
+        background-color: #9ff839;
+        margin: 10px;
+        padding: 10px 0;
+    }
+
+    .side_bar h3 {
+        margin: 0 0 10px;
+        text-align: center;
+    }
+
+    .side_bar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+        .side_bar ul li {
+            list-style: none;
+        }
+
+            .side_bar ul li a {
+                display: block;
+                color: black;
+                text-decoration: none;
+                padding: 5px 3px;
+                margin: 0 10px;
+            }
+
+                .side_bar ul li a:hover {
+                    background-color: #ca8b18;
+                    margin: 0 10px;
+                }
+
+            .side_bar ul li .current {
+                background-color: #ca8b18;
+            }
+
+    .side_bar p {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 5px 3px;
+        margin: 0 10px;
+    }
+
+    .side_bar input {
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding: 5px 3px;
+        margin: 0 10px;
+    }
+
+article {
+    background-color: fdfde9;
+}
+
+
+
+footer {
+    clear: both;
+}
+
+    footer div {
+        padding-top: 10px;
+    }
+
+    footer p {
+        margin: 0;
+        background-color: b69167;
+    }
