@@ -1,0 +1,98 @@
+
+
+/* АДАПТАЦИЯ ШАПКИ */
+@media screen and (max-width:800px){
+	.header-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+    }
+	
+	.main-menu{
+	    display: none;
+	}
+	
+	.main-menu li{
+	    width:100%;
+		display:block;
+		font-size:12px;
+	}
+	
+	.main-menu a{
+		display:block;
+		padding:8px;
+	}
+	
+	.toggle-button{
+		text-align:center;
+		display:block;
+		cursor: pointer;
+		color: #000;
+		margin-top: 25px;
+	}
+	
+	.toggle-button:after{
+		content:attr(data-open);
+		display:block;
+	}
+	
+	#menu-checkbox:checked + nav[role="navigation"] .main-menu{
+		display:block;
+    }
+	
+	.header-container a{
+	margin-right:-65px;
+    }
+	
+	.main-menu{
+		position:relative;
+		top: 30px;
+		right: 115px;
+	}
+	
+}
+
+
+
+/* АДАПТАЦИЯ ГЛАВНОЙ СТРАНИЦЫ */
+@media screen and (max-width:600px){
+.one-news{
+	width: auto;
+	float: none;
+	margin-right: 0;
+}
+}
+
+@media screen and (max-width:760px){
+/* Main Column */
+.main {
+ width: 95%;
+ float: auto;
+ margin-right: 5%;
+ margin-top:5%;
+}
+
+/* right side  */
+.right-side {
+ width: 95%;
+ float: auto;
+ margin-top:5%;
+}
+}
+
+
+
+/* АДАПТАЦИЯ КАТАЛОГА */
+@media screen and (max-width:1200px){	
+/* КАТАЛОГ*/
+.specialize-cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bottom-card{
+	width:250px;
+	margin:0 auto;
+}
+}
