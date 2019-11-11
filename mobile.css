@@ -1,0 +1,146 @@
+img{
+	max-width: 90%;
+	
+}
+.pic{
+	text-align: center;
+	}
+.maintext{
+	padding: 20px;
+	width: 90%;	
+	background: #FFE4E1;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Ubuntu Condensed';
+	letter-spacing: 2px;
+	position: relative;
+	padding-bottom: 20px;
+	font-size: 14px;
+	display: inline-block;
+	transition: color .2s;
+	margin-left: auto;
+	margin-right: auto;
+	
+ } 
+ .text{
+	  color: #000000; /* Цвет текста */
+	  font-family: 'Ubuntu Condensed';
+	  text-align: left;
+	  text-decoration:none;
+ }
+.headtitle{
+	text-align: center;
+	text-decoration: none;
+ 	font-family: 'Ubuntu Condensed', sans-serif;
+	letter-spacing: 2px;
+	position: relative;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: color .2s;
+	color: #feb386;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fusion-layout-column {
+    position: relative;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.element-bottomshadow:after, .element-bottomshadow:before {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    z-index: -1;
+    height: 20%;
+    max-height: 100px;
+    max-width: 460px;
+    width: 60%;
+    content: "";
+    opacity: .7;
+    -webkit-box-shadow: 0 17px 10px rgba(0,0,0,.7);
+    box-shadow: 0 17px 10px rgba(0,0,0,.7);
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+.reading-box-additional{
+	background-color:rgba(246,246,246,0.8);
+	border-width:0px;
+	border-color:#f6f6f6;
+	border-left-width:3px;
+	border-left-color:var(--primary_color);
+	border-style:solid;
+	
+}
+.frm{
+	background-color:#f6f6f6;
+	border-width:1px;
+	border-color:#f6f6f6;
+	border-style:solid;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+nav{
+  background: #FFE4E1;  
+  padding: 15px;
+}
+.list-menu{
+  display: flex;
+  list-style: none;
+ 
+}
+.list-menu li:after {content: ""}
+.list-menu li {display: block;}
+.list-menu > li > a{
+  color: #000000;
+  display: block;
+  padding: 5px 15px;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+#btn-menu{
+  display: none;
+}
+#btn-menu + label{
+  display: none; 
+  position: relative;
+  color: #FFE4E1; 
+  height: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+#btn-menu + label:before{
+  content: '\f0c9';  
+  display: inline-block;
+  font-family:'FontAwesome';
+  font-size: 50px;
+  content: 'МЕНЮ';
+  color: #000000;
+  width: 100%;
+}
+#btn-menu:checked + label:before{
+  content: 'МЕНЮ';
+  color: #;
+  width: 100%;
+  font-size: 50px;
+}
+
+   #btn-menu + label{
+      display: inline-block;
+   }
+  #btn-menu + label + .list-menu{
+    display: none;
+  }
+  #btn-menu:checked + label + .list-menu{
+    display: block;
+  }
+
+.footer {
+display: none;
+
+}
