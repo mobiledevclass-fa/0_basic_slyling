@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo3{
+  width: 100%;
+  height:200px;
+  
+}
+.ogo3{
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+nav {
+  width:100%;
+  margin: 0 auto;
+  font-family : Courier New, monospace;
+}
+
+nav:before{
+  content:''; 
+  display:block;
+  height:50px;
+  width:100%;
+  background:#BC8F8F;
+  position:absolute;
+  left:0;
+  z-index:-1;
+  font-family : Courier New, monospace;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:50px;
+  font-family : Courier New, monospace;
+}
+
+ul li{
+  float:left;
+  font-family : Courier New, monospace;
+}
+
+ul li a{
+  color:#fff;
+  display:block;
+  height:50px;
+  padding:0 292px;
+  text-transform:uppercase;
+  text-decoration:none;
+  line-height:50px;
+  font-family : Courier New, monospace;
+}
+
+ul li a:hover{
+  background:	#FFA500;
+  font-family : Courier New, monospace;
+}
+
+.name{
+  margin-top: 25px;
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+  font-family : Courier New, monospace;
+
+}
+
+.em{
+  margin-top: 15px;
+  margin-left: 10px;
+  width: 200px;
+  height: 20px;
+  font-family : Courier New, monospace;
+}
+
+.inp{
+  margin-top: 15px;
+  margin-left: 25px;
+  width: 300px;
+  height: 100px;
+  font-family : Courier New, monospace;
+}
+
+.button1{
+  
+  margin-left: 30px;
+  font-family : Courier New, monospace;
+}
+.navbar {
+    /*overflow: auto;отображает только внутри элемента*/
+	/*height: 40px; 
+	width: 10%;*/
+	display: inline;
+    background-color: #BC8F8F;
+	position:absolute;
+	cursor: pointer;
+	font-family : Courier New, monospace;
+	
+	
+	
+}
+/*новигация*/
+.navbar a {
+    float: left;/*сторона выравнивания элемента*/
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;/*вверх вниз 14 вправо влево 16*/
+    text-decoration: none;/*подчеркивание*/
+	font-family : Courier New, monospace;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+	margin-top:0px;
+	right:30px;
+	font-family : Courier New, monospace;
+
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    color: #FFA500;
+    padding: 5px;
+    background-color:#BC8F8F;
+    border: 0px;
+    font-family : Courier New, monospace;
+    
+	
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:#FFA500;
+	text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: red; /* Ссылка красного цвета */
+    font-family : Courier New, monospace;
+}
+
+.dropdown-content {
+    display: none;/*тип элемента*/
+    position: absolute;
+    background-color: #FFA500;
+    min-width: 160px;
+  
+    z-index: 1;/*расположение эл по отн к другим*/
+    font-family : Courier New, monospace;
+	
+	
+}
+.dropdown-content a {
+    float: none;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family : Courier New, monospace;
+}
+
+.dropdown-content a:hover {
+    background-color: #FFA500;
+    font-family : Courier New, monospace;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-family : Courier New, monospace;
+}
