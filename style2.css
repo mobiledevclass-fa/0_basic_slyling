@@ -15,13 +15,13 @@ body{
 .list_ul{  
     margin: 0; /* убираем автоматические отступы
     вокруг списка*/
-    padding: 10px 10px 10px 100px;
+    padding: 10px 10px 10px 20px;
 }
 .list_li{
     display: inline;
     border: 1px solid;
-    padding: 10px;
-    margin-right: 40px; 
+    padding: 5px;
+    /*margin-right: 70px;*/    
 }
 a{
     color: black;
